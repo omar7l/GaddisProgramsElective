@@ -24,7 +24,7 @@ tup6[0] = 100
 print(tuple(tup6))
 
 # Deleting Tuple Elements
-tup9 = ('C#', 'Python', 'Java', 'JavaScript')
+tup9 = ('C#', 'Python', 'Java', "JavaScript")
 # tuple = class for generating a tuple object
 tup10 = tuple(item for item in tup9 if item != 'Java')
 print(tup10)
